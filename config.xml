@@ -7,7 +7,7 @@
    
  <!--versioncode is optional and Android only -->
  
- <name>Aplicacion 9 Geolocalizacion y acelerometro</name>
+ <name>Geolocalizacion y acelerometro</name>
  
  <description>
     Aplicacion que te muestra la Geolocalozacion del dispositivo,de acuerdo a sus coordenadas
