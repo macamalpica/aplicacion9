@@ -34,20 +34,20 @@ $(document).ready(function(e){
 		
 		element.innerHTML='Aceleracion en X:'+acceleration.x+'<br/>'+
 		'Aceleracion en Y:'+acceleration.y+'<br/>'+
-		'intervalo:'+acceleration.timestamp+'<br/>';
+		'Intervalo:'+acceleration.timestamp+'<br/>';
 	}
 	
 	//ERROR: falla al obtener la aceleracion
 	function Error(){
 	alert('Error!');
 	}
-	//exito al localizar
+	//Exito al localizar
 	function Localiza(posicion){
 		var element=document.getElementById('geolocalizacion');
 		element.innerHTML='Latitud:'+posicion.coords.latitude+'<br/>'+
 		'Longitud:'+posicion.coords.longitude+'<br/>'+
 		'Precision:'+posicion.coords.accuracy+'<br/>'+
-		'Intervalo:'+posicion.timestamp+'<br/>';
+		'Intervalo:'+posicion.coords.timestamp+'<br/>';
 	}
 	//Error de geolocalizacion
 	function Errorlocalizacion(error){
@@ -55,4 +55,3 @@ $(document).ready(function(e){
 		'mensaje:'+error.message+'\n');
 	}
 });//document ready 
-
